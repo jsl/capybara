@@ -4,7 +4,6 @@ require 'xpath'
 module Capybara
   class CapybaraError < StandardError; end
   class DriverNotFoundError < CapybaraError; end
-  class FrozenInTime < CapybaraError; end
   class ElementNotFound < CapybaraError; end
   class ExpectationNotMet < ElementNotFound; end
   class FileNotFound < CapybaraError; end
